@@ -1,5 +1,3 @@
-import { useState, useeffect } from "react";
-
 const List = ({ list }) => {
   return (
     <div className="list">

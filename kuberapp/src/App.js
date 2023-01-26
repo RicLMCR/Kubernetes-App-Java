@@ -5,8 +5,9 @@ import List from "./components/list/list";
 
 function App() {
   //state to hold list object
-  //useeffect hook to trigger function call
+  //useeffect hook to trigger API function call
   //function makes API call to retrive list object
+  //randomise function to be placed at back end
 
   //Temporary list - replace with data sourced from DB
   const [myList, setMyList] = useState([
@@ -15,10 +16,10 @@ function App() {
     { name: "John Jones", key: 3 },
   ]);
 
-  useEffect = () => {
-    // getList();
-    setMyList();
-  };
+  // useEffect = () => {
+  //   getMyList();
+  //   setMyList();
+  // };
   return (
     <div className="App">
       <header>
