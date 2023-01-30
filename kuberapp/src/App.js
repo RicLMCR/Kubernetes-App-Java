@@ -22,6 +22,7 @@ function App() {
         <Header />
       </header>
       <List list={myList} />
+      <footer></footer>
     </div>
   );
 }
