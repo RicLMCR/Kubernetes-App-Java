@@ -9,17 +9,13 @@ function App() {
   //function makes API call to retrive list object
   //randomise function to be placed at back end
 
-  //Temporary list - replace with data sourced from DB
+  //List of names
   const [myList, setMyList] = useState([
     { name: "Steve Smith", key: 1 },
     { name: "Bob Banes", key: 2 },
     { name: "John Jones", key: 3 },
   ]);
 
-  // useEffect = () => {
-  //   getMyList();
-  //   setMyList();
-  // };
   return (
     <div className="App">
       <header>

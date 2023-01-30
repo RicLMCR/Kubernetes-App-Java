@@ -19,8 +19,11 @@ CMD ["npm", "start"]
 # build image
 #  docker build -t kuberappfe .
 
-# build container
+# build & run container
 # docker run --name kuberapp1 -p 3000:3000 -d kuberappfe 
+
+# start container
+# docker start kuberapp1
 
 # stop container
 # docker stop kuberapp1
